@@ -1,0 +1,9 @@
+---
+Nome: Alissa Novais Wenceslau Ferreira
+RA: 823115360
+Curso: Engenharia de Software
+Semestre: 7º
+Bairro: Ermelino Matarazzo
+Se trabalha: Trabalho com desenvolvimento Android
+Objetivo: Evoluir como desenvolvedora Android, aprofundando conhecimentos em arquitetura de software e boas praticas de engenharia.
+------
