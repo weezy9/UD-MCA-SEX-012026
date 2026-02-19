@@ -7,3 +7,11 @@ Bairro: Ermelino Matarazzo
 Se trabalha: Trabalho com desenvolvimento Android
 Objetivo: Evoluir como desenvolvedora Android, aprofundando conhecimentos em arquitetura de software e boas praticas de engenharia.
 ------
+Nome: Carolina Ornelas de Almeida
+RA: 823115679
+Curso: Engenharia de Software
+Semestre: 7º
+Bairro: Freguesia do Ó
+Se trabalha: Trabalho com analises em Python
+Objetivo: Evoluir na minha carreira profissional, melhorando minhas habilidades com a programação e comunicação.
+------
