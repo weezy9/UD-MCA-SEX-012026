@@ -15,3 +15,11 @@ Bairro: Freguesia do Ó
 Se trabalha: Trabalho com analises em Python
 Objetivo: Evoluir na minha carreira profissional, melhorando minhas habilidades com a programação e comunicação.
 ------
+Nome: Mayara Borges de Carvalho
+RA: 823113068
+Curso: Engenharia de Software
+Semestre: 7º
+Bairro: Ermelino Matarazzo
+Se trabalha: Trabalho com Planejamento Administrativo
+Objetivo: Atuar na área de Tecnologia da Informação com foco em análise de dados e cibersegurança, contribuindo para a segurança e análise estratégica de informações.
+------
