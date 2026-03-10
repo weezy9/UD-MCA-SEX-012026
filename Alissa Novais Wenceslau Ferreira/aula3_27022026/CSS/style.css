@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f7f6; 
+    font-family: 'Poppins', sans-serif; 
+    color: #444;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    font-weight: 300;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.profile-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    border-left: 5px solid #2a5298; 
+}
+
+.photo-container {
+    flex-shrink: 0;
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #eef2f3;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.about-text h2 {
+    color: #1e3c72;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.about-text p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.ra-text {
+    color: #2a5298;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    background: #eef2f3;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.04);
+    transition: all 0.3s ease;
+    border-top: 3px solid transparent;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-top: 3px solid #2a5298;
+}
+
+.card h3 {
+    color: #1e3c72;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.card ul li::before {
+    content: "•";
+    color: #2a5298;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.card ul li a {
+    color: #444;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.card ul li a:hover {
+    color: #2a5298;
+    text-decoration: underline;
+}
+
+.contact-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+}
+
+.contact-section h2 {
+    color: #1e3c72;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.btn-contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-size: 0.95rem;
+}
+
+.btn-contact:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn-email {
+    background-color: #eef2f3;
+    color: #333;
+}
+.btn-email:hover {
+    background-color: #dde2e4;
+}
+
+.btn-linkedin {
+    background-color: #0077b5;
+    color: white;
+}
+.btn-linkedin:hover {
+    background-color: #005582;
+}
+
+.btn-github {
+    background-color: #333;
+    color: white;
+}
+.btn-github:hover {
+    background-color: #000;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #888;
+    font-size: 0.9rem;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    
+    .ra-text {
+        margin: 20px auto 0;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
