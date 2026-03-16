@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f8fc;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+.pagina {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+.topo {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    margin-bottom: 28px;
+}
+
+.topo-texto {
+    flex: 1;
+}
+
+.etiqueta {
+    display: inline-block;
+    font-size: 14px;
+    color: #4b5563;
+    background-color: #f3f4f6;
+    padding: 8px 14px;
+    border-radius: 999px;
+    margin-bottom: 18px;
+}
+
+.topo h1 {
+    font-size: 48px;
+    color: #111827;
+    margin-bottom: 16px;
+    line-height: 1.1;
+}
+
+.apresentacao {
+    font-size: 18px;
+    color: #4b5563;
+    max-width: 560px;
+    margin-bottom: 28px;
+}
+
+.acoes {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.botao {
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 12px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao-principal {
+    background-color: #111827;
+    color: white;
+}
+
+.botao-principal:hover {
+    background-color: #000000;
+}
+
+.botao-secundario {
+    background-color: #f3f4f6;
+    color: #111827;
+    border: 1px solid #d1d5db;
+}
+
+.botao-secundario:hover {
+    background-color: #e5e7eb;
+}
+
+.topo-foto img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    display: block;
+}
+
+.secao {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 32px;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.secao h2,
+.card h2 {
+    font-size: 24px;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.destaque p {
+    margin-bottom: 12px;
+    color: #374151;
+}
+
+.grid-secoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-bottom: 24px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 24px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card li {
+    margin-bottom: 10px;
+    color: #374151;
+}
+
+.tecnologias h2 {
+    margin-bottom: 20px;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 20px;
+}
+
+.tech-item {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 18px;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.04);
+    transition: 0.3s;
+}
+
+.tech-item:hover {
+    transform: translateY(-4px);
+}
+
+.tech-item i {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.tech-item span {
+    display: block;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.contato a {
+    color: #111827;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contato a:hover {
+    text-decoration: underline;
+}
+
+.rodape {
+    text-align: center;
+    padding: 12px;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+@media (max-width: 900px) {
+    .topo {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .apresentacao {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .acoes {
+        justify-content: center;
+    }
+
+    .grid-secoes {
+        grid-template-columns: 1fr;
+    }
+
+    .topo h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 600px) {
+    .pagina {
+        width: 92%;
+        margin: 20px auto;
+    }
+
+    .topo {
+        padding: 30px 22px;
+    }
+
+    .topo-foto img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .topo h1 {
+        font-size: 30px;
+    }
+
+    .apresentacao {
+        font-size: 16px;
+    }
+
+    .secao,
+    .card {
+        padding: 22px;
+    }
+}
